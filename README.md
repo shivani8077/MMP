@@ -1,5 +1,4 @@
-# MMP
-Mini Music Player
+# MMP (Mini Music Player)
 
 A sleek and responsive mini music player built using HTML, CSS, and JavaScript. This project is perfect for showcasing your front-end skills and learning how to integrate multimedia elements in a clean UI.
 
