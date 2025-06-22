@@ -1,0 +1,65 @@
+body {
+    background-image: url('assets/images/bg9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    margin: 0;
+    padding: 5%;
+    font-family: Arial, sans-serif;
+    color: red;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.player {
+    width: 25%;
+    padding: 20px;
+    background-color: rgb(112, 68, 117);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 2);
+    color: honeydew;
+    text-align: center;
+    border-radius: 5%;
+    font-size: 1em;
+}
+
+.album-art img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.song-info h2,
+h3 {
+    margin: 10px 0;
+}
+
+.controls button {
+    font-size: 30px;
+    margin: 10px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.progress-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 5px;
+  background: #444;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  width: 0%;
+  background: #f44336;
+}
